@@ -1,3 +1,10 @@
+import Image from "next/image";
+import Alert from "@/components/Alert";
+
 export default function HomePage() {
-  return <div>HomePage</div>;
+  return (
+    <>
+      <Alert />
+    </>
+  );
 }
