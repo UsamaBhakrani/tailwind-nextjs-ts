@@ -71,6 +71,31 @@ export default function HomePage() {
           consequuntur illo quam!
         </p>
       </article>
+      <div className="h-24 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+      <div className="w-96 mt-6 ml-4 p-3 shadow-lg shadow-blue-600">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam
+        itaque harum unde quaerat soluta eligendi aliquid, temporibus, atque
+        ducimus obcaecati modi? Odit vero beatae minus ea cum dicta consequuntur
+        distinctio praesentium. Nihil delectus repellat consequatur repellendus
+        illum atque, nisi obcaecati officia quos porro aspernatur minus sapiente
+        qui libero esse.
+      </div>
+      <div className="w-96 border m-6 p-3 border-blue-300 shadow-lg shadow-cyan-300 rounded-lg hover:shadow-purple-500 ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+        accusantium doloribus explicabo autem ullam dolorum praesentium,
+        similique obcaecati cumque nobis fugit, impedit velit mollitia nemo
+        earum incidunt odio hic ea accusamus quas quibusdam. Ullam placeat rem
+        dolorem deserunt debitis reiciendis cum, ipsam, magni aperiam quaerat
+        error beatae quasi qui maiores.
+      </div>
+      <div className="m-10">
+        <button className="bg-black text-white border hover:bg-teal-600 border-black py-2 px-5 rounded-lg">
+          Submit
+        </button>
+        <button className="mx-4 border border-black hover:bg-red-600 active:bg-yellow-500 text-black py-2 px-5 rounded-lg">
+          Cancel
+        </button>
+      </div>
     </div>
   );
 }
