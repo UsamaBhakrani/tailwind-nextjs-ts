@@ -2,14 +2,13 @@ export default function HomePage() {
   return (
     <div className="container mx-auto">
       <div>
-        <h1 className="text-5xl text-cyan-700 md:text-2xl">Hello</h1>
         {/* Columns */}
-        <div className="columns-2 gap-10 md:columns-4 text-cyan-400">
+        {/* <div className="columns-2 gap-10 md:columns-4 text-cyan-400">
           <div className="w-full h-10">Hello</div>
           <div className="w-full h-10">Jello</div>
           <div className="w-full h-10">Mello</div>
           <div className="w-full h-10">Pello</div>
-        </div>
+        </div> */}
       </div>
       {/* <div className="columns-xs gap-10 text-slate-400">
         <div className="w-full h-10">Hello</div>
@@ -31,7 +30,7 @@ export default function HomePage() {
         <div className="p-10 border border-blue-300 bg-blue-100">4</div>
       </div> */}
 
-      <div className="flex w-full bg-gray-100">
+      {/* <div className="flex w-full bg-gray-100">
         <div className="w-64 p-10 border border-blue-300 bg-blue-100">1</div>
         <div className="flex-none w-64 p-10 border border-blue-300 bg-blue-100">
           2
@@ -49,7 +48,8 @@ export default function HomePage() {
         <div className="flex-1 bg-blue-500 border border-cyan-400">Hello</div>
         <div className="flex-1 bg-blue-500 border border-cyan-400">Hello</div>
         <div className="flex-1 bg-blue-500 border border-cyan-400">Hello</div>
-      </div>
+      </div> */}
+      
     </div>
   );
 }
