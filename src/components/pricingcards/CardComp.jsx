@@ -1,8 +1,16 @@
 import React from "react";
 
-const CardComp = ({ heading, monthlyPlan, storageNumber, storageSize }) => {
+const CardComp = ({
+  heading,
+  monthlyPlan,
+  storageNumber,
+  storageSize,
+  borderStyle = "border-slate-600",
+}) => {
   return (
-    <div className="flex flex-col justify-evenly items-center border-8 border-slate-600 h-80 px-8 rounded-2xl m-5">
+    <div
+      className={`flex flex-col justify-evenly items-center ${borderStyle} border-8 h-80 px-6 rounded-2xl m-4`}
+    >
       <h1 className="text-white text-sm">{heading}</h1>
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-white text-3xl">
@@ -10,7 +18,7 @@ const CardComp = ({ heading, monthlyPlan, storageNumber, storageSize }) => {
           {storageSize}
         </h1>
         <span className="text-white text-xs">{monthlyPlan}</span>
-        <button className="mt-3 px-8 py-2 rounded-lg text-white flex justify-center items-center border border-indigo-500 hover:bg-indigo-700">
+        <button className="mt-3 px-8 py-2 rounded-lg text-xs text-white flex justify-center items-center border border-indigo-500 hover:bg-indigo-700">
           Purchase
         </button>
       </div>
