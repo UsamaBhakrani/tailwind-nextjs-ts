@@ -4,8 +4,9 @@ import Grid from "@/components/Grid";
 export default function HomePage() {
   return (
     <>
-      {/* <Subscribe /> */}
-      <Grid />
+      <Subscribe />
+      {/* <Grid /> */}
+    
     </>
   );
 }
