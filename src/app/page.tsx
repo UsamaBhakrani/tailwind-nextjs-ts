@@ -1,12 +1,10 @@
-import Subscribe from "@/components/subscribe/Subscribe";
-import Grid from "@/components/Grid";
-
+import Card from "@/components/pricingcards/Card";
 export default function HomePage() {
   return (
     <>
-      <Subscribe />
+      {/* <Subscribe /> */}
       {/* <Grid /> */}
-    
+      <Card />
     </>
   );
 }
